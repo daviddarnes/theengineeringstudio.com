@@ -4,4 +4,133 @@ title: The Engineering Studio
 excerpt: "Consistently providing personal response, outstanding service and the timely delivery of results"
 ---
 
-<h1>Hello world</h1>
+<header class="header grid" role="banner">
+  {% include site-logo.html %}
+  {% include nav-header.html %}
+</header>
+<div class="feature typeset grid">
+  <div class="feature__content">
+    <h1>{{ page.title | replace: "Studio", "<strong>Studio</strong>" }}</h1>
+    <h2>{{ page.excerpt }}</h2>
+  </div>
+</div>
+
+<main class="main grid">
+  <span class="anchor-point" id="overview"></span>
+  <div class="main__content typeset">
+    <h3>Overview</h3>
+    <p><strong>the engineering studio is a Civil and Structural Engineering practice. Our aim is to consistently provide personal response, outstanding service and the timely delivery of results.</strong></p>
+    <p>The practice benefits from an ability to have a constructive dialogue with clients as well as collaborating closely with all disciplines involved in the project team from inception through project delivery.</p>
+    {% include figure.html image="https://images.unsplash.com/photo-1516733069521-667d446f48b0?ixlib=rb-0.3.5&s=60ceeb72b10fa17e8e3c0fadb4a9c4df&auto=format&fit=crop&w=634&q=80" %}
+    <p>A key aspect of the successful delivery of a project is the effective communication between all members of the project to fully understand the client’s aspirations and requirements for the project.</p>
+    <p>At the engineering studio all projects are led by a Director, who will always be the point of contact from inception to completion of the project. We consider this approach to be key particularly in the early stages of the process where critical decisions are required thus reducing future issues along the design process.</p>
+  </div>
+  <aside class="main__aside">
+    <div class="v-card-group typeset">
+      <address class="vcard vcard--mark">
+        <h6 class="given-name">Mark Gould</h6>
+        <a class="email" href="mailto:mark@theengineeringstudio.com">mark@theengineeringstudio.com</a>
+        <div class="tel">07305 355 145</div>
+        <div class="adr">
+          <span class="street-address">Fromeforde House<br/>Church Road</span><br/>
+          <span class="locality">Yate</span><br/>
+          <span class="region">Bristol</span><br/>
+          <span class="postal-code">BS37 5JB</span>
+        </div>
+      </address>
+      <hr>
+      <address class="vcard vcard--francisco">
+        <h6 class="given-name">Francisco Alguacil</h6>
+        <a class="email" href="mailto:francisco@theengineeringstudio.com">francisco@theengineeringstudio.com</a>
+        <div class="tel">07305 355 145</div>
+      </address>
+    </div>
+  </aside>
+</main>
+
+<section class="approach-section grid section">
+  <span class="anchor-point" id="approach"></span>
+  <header class="approach-section__header typeset">
+    <h3>Approach</h3>
+  </header>
+  <div class="approach-section__content typeset">
+    <p><strong>the engineering studio is a Civil and Structural Engineering practice. Our aim is to consistently provide personal response, outstanding service and the timely delivery of results.</strong></p>
+    <p>The practice benefits from an ability to have a constructive dialogue with clients as well as collaborating closely with all disciplines involved in the project team from inception through project delivery.</p>
+    <p>A key aspect of the successful delivery of a project is the effective communication between all members of the project to fully understand the client’s aspirations and requirements for the project.</p>
+  </div>
+  <aside class="approach-section__aside typeset">
+    <ul class="list  list-ticked">
+      <li>Proactive</li>
+      <li>Responsible design</li>
+      <li>Integrated</li>
+      <li>Innovation</li>
+      <li>Sustainability</li>
+      <li>Value/Cost</li>
+      <li>Creative solutions</li>
+      <li>Informed</li>
+      <li>Problem solving</li>
+      <li>Inclusive</li>
+    </ul>
+  </aside>
+</section>
+
+<section class="our-services-section grid section">
+  <span class="anchor-point" id="our-services"></span>
+  <header class="our-services-section__header typeset">
+    <h3>Our Services</h3>
+    <p><strong>the engineering studio can assist with your project during any of the different stages - Pre-Planning, Pre-Construction and Construction.</strong></p>
+  </header>
+  <div class="our-services-section__column typeset">
+    <h4>Civil Engineering</h4>
+    <p>Delivering informed solutions that respond to the requirements of each site.</p>
+    <ul>
+      <li>Drainage - surface & foul systems including S104 and 185 adopted sewer agreements</li>
+      <li>Cut and fill exercises</li>
+      <li>New roads to adoptable standards and to S38 agreements</li>
+      <li>Highways - alterations to existing adopted highways involving S278 agreements</li>
+      <li>Assisting on obtaining Environments Agency and Land Drainage Board consent</li>
+    </ul>
+  </div>
+  <div class="our-services-section__column typeset">
+    <h4>Structural Engineering</h4>
+    <p>Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.</p>
+    <ul>
+      <li>Concrete</li>
+      <li>Steel</li>
+      <li>Masonry</li>
+      <li>Timber</li>
+      <li>Foundation design</li>
+      <li>Reinforcement detailing</li>
+      <li>Flood risk assessment</li>
+      <li>Planning support</li>
+      <li>Temporary works design</li>
+      <li>Domestic and residential</li>
+    </ul>
+  </div>
+</section>
+<section class="contact-section grid section">
+  <span class="anchor-point" id="contact"></span>
+  <header class="contact-section__header typeset">
+    <h3>Contact Us</h3>
+    <p><strong>the engineering studio can assist with your project during any of the different stages - Pre-Planning, Pre-Construction and Construction.</strong></p>
+  </header>
+</section>
+
+<footer class="footer grid">
+  <div class="footer__copyright typeset">
+    <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
+  </div>
+  {% include nav-footer.html %}
+</footer>
+
+<script type="text/javascript">
+  const aside = document.querySelector('.main__aside');
+  const speed = 0.2;
+
+  function setScrollParallax() {
+      aside.style.setProperty("--scrollparallax", (document.body.scrollTop || document.documentElement.scrollTop) * speed);
+      window.requestAnimationFrame( setScrollParallax );
+  }
+
+  window.requestAnimationFrame( setScrollParallax );
+</script>

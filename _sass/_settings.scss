@@ -1,0 +1,39 @@
+// Background colours
+$backgroundColour: #ffffff;
+$codeBackgroundColour: #fafafa;
+$featureBackgroundColour: #242628;
+$accentColour: #818CA1;
+
+// Text colours
+$headingColour: #242628;
+$bodyColour: #2B393D;
+$linkColour: #83A2A3;
+$hoverColour: darken(#83A2A3, 15%);
+$focusColour: darken(#83A2A3, 30%);
+$captionColour: #B6C1CA;
+$white: #ffffff;
+
+// Typography
+$bodytype: (
+  font-family: '"Roboto", sans-serif',
+  regular: 400,
+  bold: 500,
+  italic: italic,
+  cap-height: 0.72
+);
+
+$headingtype: (
+  font-family: '"Muli", serif',
+  regular: 300,
+  bold: 600,
+  cap-height: 0.72
+);
+
+$monospacetype: (
+  font-family: '"Courier New", Courier, monospace;',
+  regular: 400,
+  cap-height: 0.68
+);
+
+// Font import, if you're using a non-standard web font
+@import url('https://fonts.googleapis.com/css?family=Muli:300,600,700|Roboto:400,500');

@@ -1,0 +1,230 @@
+---
+title: false
+---
+
+@import "normalize",
+        "settings",
+        "sassline-base";
+
+
+html, body {
+  overflow: auto;
+}
+
+:root {
+  font-size: 11px;
+  line-height: 1.2em;
+  font-size: calc(11px + .2vw);
+  line-height: calc(1.2em + .2vw);
+}
+
+// Globals
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a[href^="mailto"] {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.anchor-point {
+  position: relative;
+  top: -10rem;
+}
+
+@supports (display: grid) {
+  .grid {
+    display: grid;
+    grid-column-gap: .75rem;
+    grid-template-columns:
+    [full-start]
+      minmax(calc(calc(100% - 1200px) / 2), 1fr)
+        [main-start]
+          repeat(12, [col-start] 1fr)
+        [main-end]
+      minmax(calc(calc(100% - 1200px) / 2), 1fr)
+    [full-end];
+    > * {
+      grid-column: main-start / main-end;
+    }
+  }
+}
+
+// Header component
+.header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  align-items: center;
+  box-shadow: 0 2px 2px fade-out($headingColour, 0.85);
+  background: $backgroundColour;
+  border-top: 5px solid $accentColour;
+  .logo {
+    grid-column: 2 / span 4;
+    @include breakpoint(break-1) {
+      grid-column: 2 / span 2;
+    }
+    line-height: 0;
+  }
+  .nav {
+    grid-column: span 8;
+    @include breakpoint(break-1) {
+      grid-column: span 10;
+    }
+  }
+}
+
+// Feature
+.feature {
+  background: $headingColour;
+  min-height: 60vh;
+  place-items: center;
+  &__content {
+    grid-column: 3 / span 10;
+    @include breakpoint(break-1) {
+      grid-column: 3 / span 6;
+    }
+    h1,
+    h2 {
+      color: $backgroundColour;
+    }
+  }
+}
+
+// Main component
+.main {
+  @include breakpoint(break-1) {
+    &__content {
+      grid-column: 2 / 9;
+    }
+    &__aside {
+      transform: translateY( calc( var(--scrollparallax) * 1px ));
+      grid-column: 10 / 14;
+      margin-top: -4rem;
+    }
+  }
+  .figure {
+    max-width: 50%;
+    float: right;
+    margin-left: 2.2rem;
+  }
+}
+
+// Approach section component
+.approach-section {
+  background: $headingColour;
+  .typeset h3,
+  .typeset p,
+  .typeset li {
+    color: $backgroundColour;
+  }
+  @include breakpoint(break-1) {
+    &__content {
+      grid-column: 2 / 8;
+    }
+  }
+  &__aside {
+    columns: 2;
+    ul {
+      padding-top: 0;
+    }
+    @include breakpoint(break-1) {
+      columns: 1;
+      grid-column: 10 / 14;
+    }
+  }
+}
+
+// Our services section
+.our-services-section,
+.contact-section {
+  &__header {
+    text-align: center;
+  }
+  @include breakpoint(break-1) {
+    &__column {
+      grid-column: 3 / span 4;
+    }
+    &__column + &__column {
+      grid-column: 9 / span 4;
+    }
+  }
+}
+
+.our-services-section {
+  background: $captionColour;
+}
+
+.footer {
+  background: $headingColour;
+  color: $captionColour;
+  &__copyright {
+    grid-column: 2 / span 4;
+  }
+  .nav {
+    grid-column: span 8;
+    font-size: .9rem;
+  }
+  a {
+    color: $backgroundColour;
+  }
+}
+
+.typeset h1 strong {
+  font-weight: 700;
+}
+
+.typeset h3 {
+  font-weight: 300;
+}
+
+.v-card-group {
+  background: $captionColour;
+  padding: 0 2rem 2rem;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: right;
+  ul {
+    overflow: hidden;
+  }
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @include breakpoint(break-1) {
+      display: inline-block;
+    }
+  }
+  li + li {
+    margin-left: 1rem;
+  }
+}
+
+@include breakpoint(break-1) {
+  .button--nav {
+    display: none;
+  }
+}
+
+.typeset,
+.nav {
+  -webkit-font-smoothing: antialiased;
+}
+
+.header,
+.footer {
+  padding: 1.6rem 0 1.8rem;
+}
+
+.main,
+.section {
+  padding: 2rem 0 4.4rem;
+}
