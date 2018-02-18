@@ -1,0 +1,75 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Jekyll collections settings
+# 6. Site settings
+# 7. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+
+# 2. Installed Gems
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-remote-theme
+
+remote_theme: daviddarnes/alembic@3.0.1
+
+# 3. Gem settings
+author: "Mark Gould" # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: "Mark Gould" # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://www.linkedin.com/in/mark-gould-52107836/
+    - https://www.linkedin.com/in/francisco-alguacil-00b82353/
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+timezone: Europe/London # Timezone for blog posts and alike
+
+# 5. Jekyll collections settings
+defaults:
+  -
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
+
+# 6. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "The Engineering Studio" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "Consistently providing personal response, outstanding service and the timely delivery of results" # Site description and default description, also used in jekyll-seo-tag
+url: "https://theengineeringstudio.darn.es" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+email: "admin@theengineeringstudio.com"
+avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+
+# 7. Site navigation
+navigation_header:
+  Overview: "#overview"
+  Our Vision: "#our-vision"
+  Partners: "#partners"
+  Approach: "#approach"
+  Our Services: "#our-services"
+  Testimonials: "#testimonials"
+  Contact Us: "#contact"
+
+navigation_footer:
+  Overview: "#overview"
+  Our Vision: "#our-vision"
+  Partners: "#partners"
+  Approach: "#approach"
+  Our Services: "#our-services"
+  Testimonials: "#testimonials"
+  Contact Us: "#contact"
