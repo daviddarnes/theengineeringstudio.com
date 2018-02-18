@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # Core jekyll gem
-gem "jekyll", "~> 3.6.2"
+gem "jekyll", "~> 3.7.2"
 
 # Bundling deps to work locally
 gem "bundler", "~> 1.14"
