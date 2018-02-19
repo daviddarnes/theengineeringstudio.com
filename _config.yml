@@ -58,18 +58,12 @@ avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to
 # 7. Site navigation
 navigation_header:
   Overview: "#overview"
-  Our Vision: "#our-vision"
-  Partners: "#partners"
   Approach: "#approach"
   Our Services: "#our-services"
-  Testimonials: "#testimonials"
+  Partners: "#partners"
   Contact Us: "#contact"
 
 navigation_footer:
-  Overview: "#overview"
-  Our Vision: "#our-vision"
-  Partners: "#partners"
-  Approach: "#approach"
   Our Services: "#our-services"
-  Testimonials: "#testimonials"
+  Partners: "#partners"
   Contact Us: "#contact"

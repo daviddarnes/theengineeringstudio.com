@@ -4,8 +4,8 @@ title: false
 
 @import "normalize",
         "settings",
-        "sassline-base";
-
+        "sassline-base",
+        "vcard";
 
 html, body {
   overflow: auto;
@@ -34,7 +34,7 @@ a[href^="mailto"] {
 
 .anchor-point {
   position: relative;
-  top: -10rem;
+  top: -9.7rem;
 }
 
 @supports (display: grid) {
@@ -43,11 +43,11 @@ a[href^="mailto"] {
     grid-column-gap: .75rem;
     grid-template-columns:
     [full-start]
-      minmax(calc(calc(100% - 1200px) / 2), 1fr)
+      minmax(calc(calc(100% - 1200px) / 2), .5fr)
         [main-start]
           repeat(12, [col-start] 1fr)
         [main-end]
-      minmax(calc(calc(100% - 1200px) / 2), 1fr)
+      minmax(calc(calc(100% - 1200px) / 2), .5fr)
     [full-end];
     > * {
       grid-column: main-start / main-end;
@@ -181,11 +181,6 @@ a[href^="mailto"] {
 
 .typeset h3 {
   font-weight: 300;
-}
-
-.v-card-group {
-  background: $captionColour;
-  padding: 0 2rem 2rem;
 }
 
 .nav {
