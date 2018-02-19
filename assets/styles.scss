@@ -37,6 +37,10 @@ a[href^="mailto"] {
   top: -9.7rem;
 }
 
+.editable {
+  position: relative;
+}
+
 @supports (display: grid) {
   .grid {
     display: grid;
