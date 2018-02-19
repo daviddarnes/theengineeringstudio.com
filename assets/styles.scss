@@ -7,8 +7,8 @@ title: false
         "sassline-base",
         "vcard";
 
-html, body {
-  overflow: auto;
+html {
+  height: auto;
 }
 
 :root {
@@ -35,10 +35,6 @@ a[href^="mailto"] {
 .anchor-point {
   position: relative;
   top: -9.7rem;
-}
-
-.editable {
-  position: relative;
 }
 
 @supports (display: grid) {
