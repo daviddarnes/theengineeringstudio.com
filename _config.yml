@@ -59,6 +59,7 @@ avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to
 navigation_header:
   Overview: "#overview"
   Approach: "#approach"
+  Our Vision: "#our-vision"
   Our Services: "#our-services"
   Partners: "#partners"
   Contact Us: "#contact"

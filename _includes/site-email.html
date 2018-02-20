@@ -1,0 +1,7 @@
+<script>
+var email = "{{ site.email | split: "" | reverse | join: "" }}";
+var unraveledEmail = email.split("").reverse().join("");
+var emailElement = document.getElementById('siteEmail');
+  emailElement.innerHTML = unraveledEmail;
+  emailElement.setAttribute('href', 'mailto:' + unraveledEmail);
+</script>
