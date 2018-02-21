@@ -53,29 +53,29 @@ a[href^="mailto"] {
   top: -9.7rem;
 }
 
-// .grid {
-//   position: relative;
-//   display: flex;
-//   max-width: 960px;
-//   margin: 0 auto;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-// }
-
 @supports (display: grid) {
   .grid {
     position: relative;
     max-width: 100%;
+    display: -ms-grid;
     display: grid;
     grid-column-gap: .75rem;
+    -ms-grid-columns:
+      [full-start]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+          [main-start]
+            ([col-start] 1fr)[12]
+          [main-end]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+      [full-end];
     grid-template-columns:
-    [full-start]
-      minmax(calc(calc(100% - 1200px) / 2), .5fr)
-        [main-start]
-          repeat(12, [col-start] 1fr)
-        [main-end]
-      minmax(calc(calc(100% - 1200px) / 2), .5fr)
-    [full-end];
+      [full-start]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+          [main-start]
+            repeat(12, [col-start] 1fr)
+          [main-end]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+      [full-end];
     > * {
       grid-column: main-start / main-end;
     }
