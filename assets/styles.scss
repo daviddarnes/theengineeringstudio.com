@@ -114,8 +114,11 @@ a[href^="mailto"] {
   background-size: cover;
   min-height: 60vh;
   place-items: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
   &:after {
+    z-index: 0;
     content: "";
     position: absolute;
     top: 0;
