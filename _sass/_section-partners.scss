@@ -1,0 +1,12 @@
+.partners-section {
+  background: $headingColour;
+  &__header {
+    text-align: center;
+  }
+  .typeset h3,
+  .typeset h4,
+  .typeset p,
+  .typeset li {
+    color: $backgroundColour;
+  }
+}

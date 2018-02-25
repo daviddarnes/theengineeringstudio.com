@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  padding: 1.2rem 2rem 1.3rem;
+  margin-bottom: 2rem;
+  background: white;
+  font-weight: 500;
+  .icon {
+    margin-bottom: -.1rem;
+  }
+  &--nav {
+    padding: .4rem 1rem;
+    border: none;
+    margin: 0;
+    @include breakpoint(break-1) {
+      display: none;
+    }
+  }
+}

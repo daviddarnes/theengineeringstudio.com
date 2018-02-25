@@ -1,0 +1,17 @@
+.main {
+  @include breakpoint(break-1) {
+    &__content {
+      grid-column: 2 / 9;
+    }
+    &__aside {
+      transform: translateY( calc( var(--scrollparallax) * 1px ));
+      grid-column: 10 / 14;
+      margin-top: -6rem;
+    }
+  }
+  .figure {
+    max-width: 50%;
+    float: right;
+    margin-left: 2.2rem;
+  }
+}

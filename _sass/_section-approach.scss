@@ -1,0 +1,28 @@
+// Approach section component
+.approach-section {
+  background: $headingColour url('/assets/approach.jpg') no-repeat center right;
+  background-size: contain;
+  &__header {
+    text-align: left;
+  }
+  .typeset h3,
+  .typeset p,
+  .typeset li {
+    color: $backgroundColour;
+  }
+  @include breakpoint(break-1) {
+    &__content {
+      grid-column: 2 / 8;
+    }
+  }
+  &__aside {
+    columns: 2;
+    ul {
+      padding-top: 0;
+    }
+    @include breakpoint(break-1) {
+      columns: 1;
+      grid-column: 10 / 13;
+    }
+  }
+}

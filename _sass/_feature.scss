@@ -1,0 +1,28 @@
+// Feature
+.feature {
+  background: $headingColour url('/assets/feature.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:after {
+    z-index: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: fade-out($backgroundColour, 0.3);
+  }
+  &__content {
+    z-index: 1;
+    text-shadow: 0 0 20px $backgroundColour;
+    grid-column: 3 / span 10;
+    @include breakpoint(break-1) {
+      grid-column: 3 / span 6;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@supports (display: grid) {
+  .grid {
+    position: relative;
+    max-width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: .75rem;
+    -ms-grid-columns:
+      [full-start]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+          [main-start]
+            ([col-start] 1fr)[12]
+          [main-end]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+      [full-end];
+    grid-template-columns:
+      [full-start]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+          [main-start]
+            repeat(12, [col-start] 1fr)
+          [main-end]
+        minmax(calc(calc(100% - 1200px) / 2), .5fr)
+      [full-end];
+
+    // Set default column spanning for classless elements
+    > * {
+      grid-column: main-start / main-end;
+    }
+
+    // Set default styling for grid headers
+    header {
+      grid-column: main-start / main-end;
+    }
+
+    // Helper columns inside grid areas
+    @include breakpoint(break-1) {
+      &__column {
+        grid-column: 3 / span 4;
+      }
+      &__column + &__column {
+        grid-column: 9 / span 4;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+// Header component
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 2;
+  align-items: center;
+  box-shadow: 0 2px 2px fade-out($headingColour, 0.85);
+  background: $backgroundColour;
+  border-top: 5px solid $accentColour;
+  .logo {
+    min-width: 10rem;
+    grid-column: 2 / span 4;
+    @include breakpoint(break-1) {
+      grid-column: 2 / span 2;
+    }
+    line-height: 0;
+  }
+  .nav {
+    grid-column: span 8;
+    @include breakpoint(break-1) {
+      grid-column: span 10;
+    }
+  }
+}
