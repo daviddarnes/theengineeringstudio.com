@@ -1,25 +1,18 @@
 ---
 layout: default
 title: The Engineering Studio
-excerpt: >-
+excerpt: |
   Consistently providing personal response, outstanding service and the timely
   delivery of results.
 ---
 
-<header class="header grid" role="banner">
-  {% include site-logo.html %}
-  {% include nav-header.html %}
-</header>
-<div class="feature typeset grid">
-  <div class="feature__content">
-    <h1>{{ page.title | replace: "Studio", "<strong>Studio</strong>" }}</h1>
-    <h2>{{ page.excerpt }}</h2>
-  </div>
-</div>
+{% include header.html %}
+
+{% include feature.html %}
 
 <main class="main grid">
   <span class="anchor-point" id="overview"></span>
-  <div class="main__content typeset editable">
+  <div class="main__content typeset">
     <h3>Overview</h3>
     <p><strong><code>the engineering studio</code> is a Civil and Structural Engineering practice. Our aim is to consistently provide personal response, outstanding service and the timely delivery of results.</strong></p>
     <p>The practice benefits from an ability to have a constructive dialogue with clients as well as collaborating closely with all disciplines involved in the project team from inception through project delivery.</p>
@@ -28,152 +21,28 @@ excerpt: >-
     <p>At <code>the engineering studio</code> all projects are led by a Director, who will always be the point of contact from inception to completion of the project. We consider this approach to be key particularly in the early stages of the process where critical decisions are required thus reducing future issues along the design process.</p>
   </div>
   <aside class="main__aside">
-    <div class="vcard-group typeset">
-      <address class="vcard vcard--mark">
-        <h6 class="given-name">Mark Gould</h6>
-        <a class="email" href="mailto:mark@theengineeringstudio.com">mark@theengineeringstudio.com</a>
-        <div class="tel">07305 355 145</div>
-        <div class="adr">
-          <span class="street-address">Fromeforde House<br/>Church Road</span><br/>
-          <span class="locality">Yate</span><br/>
-          <span class="region">Bristol</span><br/>
-          <span class="postal-code">BS37 5JB</span>
-        </div>
-      </address>
-      <hr>
-      <address class="vcard vcard--francisco">
-        <h6 class="given-name">Francisco Alguacil</h6>
-        <a class="email" href="mailto:francisco@theengineeringstudio.com">francisco@theengineeringstudio.com</a>
-        <div class="tel">07305 355 145</div>
-      </address>
-    </div>
+    {% include vcard.html %}
   </aside>
 </main>
 
-<section class="approach-section grid section">
-  <span class="anchor-point" id="approach"></span>
-  <header class="approach-section__header typeset editable">
-    <h3>Approach</h3>
-  </header>
-  <div class="approach-section__content typeset editable">
-    <p><strong><code>the engineering studio</code> is a Civil and Structural Engineering practice. Our aim is to consistently provide personal response, outstanding service and the timely delivery of results.</strong></p>
-    <p>The practice benefits from an ability to have a constructive dialogue with clients as well as collaborating closely with all disciplines involved in the project team from inception through project delivery.</p>
-    <p>A key aspect of the successful delivery of a project is the effective communication between all members of the project to fully understand the client’s aspirations and requirements for the project.</p>
-  </div>
-  <aside class="approach-section__aside typeset">
-    <ul class="list  list--ticked editable">
-      <li><span>Proactive</span> {% include icon.html id="tick" %}</li>
-      <li><span>Responsible design</span> {% include icon.html id="tick" %}</li>
-      <li><span>Integrated</span> {% include icon.html id="tick" %}</li>
-      <li><span>Innovation</span> {% include icon.html id="tick" %}</li>
-      <li><span>Sustainability</span> {% include icon.html id="tick" %}</li>
-      <li><span>Value/Cost</span> {% include icon.html id="tick" %}</li>
-      <li><span>Creative solutions</span> {% include icon.html id="tick" %}</li>
-      <li><span>Informed</span> {% include icon.html id="tick" %}</li>
-      <li><span>Problem solving</span> {% include icon.html id="tick" %}</li>
-      <li><span>Inclusive</span> {% include icon.html id="tick" %}</li>
-    </ul>
-  </aside>
-</section>
+{% include section-approach.html %}
 
-<section class="our-vision-section grid section">
-  <span class="anchor-point" id="our-vision"></span>
-  <header class="our-vision-section__header typeset editable">
-    <h3>Our Vision</h3>
-    <p><code>the engineering studio</code> was born from a genuine passion for engineering and a will to engage with clients to ensure that not only the brief is delivered economically, by providing sustainable, robust and workable solutions, but your expectations are exceeded when you embark on your journey. Construction projects are often challenging by their nature and it our aim to add value and to be a proactive part of the solution process.</p>
-  </header>
-</section>
+{% include section-vision.html %}
 
-<section class="our-services-section grid section">
-  <span class="anchor-point" id="our-services"></span>
-  <header class="our-services-section__header typeset editable">
-    <h3>Our Services</h3>
-    <p><strong><code>the engineering studio</code> can assist with your project during any of the different stages - Pre-Planning, Pre-Construction and Construction.</strong></p>
-  </header>
-  <div class="our-services-section__column typeset editable">
-    <h4>Civil Engineering</h4>
-    <p>Delivering informed solutions that respond to the requirements of each site.</p>
-    <ul class="list list--connected">
-      <li>Drainage - surface & foul systems including S104 and 185 adopted sewer agreements</li>
-      <li>Cut and fill exercises</li>
-      <li>New roads to adoptable standards and to S38 agreements</li>
-      <li>Highways - alterations to existing adopted highways involving S278 agreements</li>
-      <li>Assisting on obtaining Environments Agency and Land Drainage Board consent</li>
-      <li>Flood risk assessment</li>
-      <li>Planning support</li>
-    </ul>
-  </div>
-  <div class="our-services-section__column typeset editable">
-    <h4>Structural Engineering</h4>
-    <p>Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.</p>
-    <ul class="list list--connected">
-      <li>Concrete</li>
-      <li>Steel</li>
-      <li>Masonry</li>
-      <li>Timber</li>
-      <li>Foundation design</li>
-      <li>Reinforcement detailing</li>
-      <li>Temporary works design</li>
-      <li>Domestic and residential</li>
-      <li>Conceptual design</li>
-      <li>Feasibility studies</li>
-      <li>Condition surveys</li>
-      <li>BIM</li>
-      <li>Pre-planning, pre-construction and construction</li>
-    </ul>
-  </div>
-</section>
+{% include section-services.html %}
 
-<section class="partners-section grid section">
-  <span class="anchor-point" id="partners"></span>
-  <header class="partners-section__header typeset editable">
-    <h3>Partners</h3>
-    <p><strong><code>the engineering studio</code> can assist with your project during any of the different stages - Pre-Planning, Pre-Construction and Construction.</strong></p>
-  </header>
-  <div class="partners-section__column typeset editable">
-    {% include figure.html image="/assets/mark.jpg" %}
-    <h4>Mark Gould</h4>
-    <p>Mark's passion and flair for engineering led him to set up the engineering studio in 2018 with the aim to provide clients with the best support, service and technical solutions for their projects.  His 18 years’ practical experience working for some of the world’s leading multidisciplinary engineering companies has provided him with the knowledge and skills to be able to successfully design and manage a variety of construction projects in the education, health, commercial, residential and refurbishment sectors incorporating all of the major building materials.  His proactiveness and hands on approach allows him to assess and establish the key risks of each project in order to successfully manage the design process from the outset through to completion.  He is a forward thinking individual who is able to provide innovative design solutions on challenging sites.   Mark's experience of building strong and trusting relationships with all team members maximises performance, while his high technical knowledge of civil & structural engineering ensures quality and excellence are constantly delivered for the duration of each project.</p>
-    {% include button.html text="Find me on LinkedIn" link="https://www.linkedin.com/in/mark-gould-52107836/" icon="linkedin" %}
-  </div>
-  <div class="partners-section__column typeset editable">
-    {% include figure.html image="/assets/mark.jpg" %}
-    <h4>Mark Gould</h4>
-    <p>Mark's passion and flair for engineering led him to set up the engineering studio in 2018 with the aim to provide clients with the best support, service and technical solutions for their projects.  His 18 years’ practical experience working for some of the world’s leading multidisciplinary engineering companies has provided him with the knowledge and skills to be able to successfully design and manage a variety of construction projects in the education, health, commercial, residential and refurbishment sectors incorporating all of the major building materials.  His proactiveness and hands on approach allows him to assess and establish the key risks of each project in order to successfully manage the design process from the outset through to completion.  He is a forward thinking individual who is able to provide innovative design solutions on challenging sites.   Mark's experience of building strong and trusting relationships with all team members maximises performance, while his high technical knowledge of civil & structural engineering ensures quality and excellence are constantly delivered for the duration of each project.</p>
-    {% include button.html text="Find me on LinkedIn" link="https://www.linkedin.com/in/francisco-alguacil-00b82353/" icon="linkedin" %}
-  </div>
-</section>
+{% include section-partners.html %}
 
-<section class="contact-section grid section">
-  <span class="anchor-point" id="contact"></span>
-  <header class="contact-section__header typeset editable">
-    <h3>Contact Us</h3>
-    <a id="siteEmail"></a>
-    <p><strong><code>the engineering studio</code> can assist with your project during any of the different stages - Pre-Planning, Pre-Construction and Construction.</strong></p>
-    <address class="">
-      64 Broad Street, Chipping Sodbury, Bristol, BS37 6AG<br/>
-      01454 560 060
-    </address>
-  </header>
-</section>
+{% include section-contact.html %}
 
-<footer class="footer grid">
-  <div class="footer__copyright typeset">
-    <small>&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
-    <br/>
-    <small>THE ENGINEERING STUDIO LTD is registered in England and Wales no. 11102269.   VAT no ??????
-Registered office: 64 Broad Street, Chipping Sodbury, Bristol, BS37 6AG.
-The information in this email (and attachments where relevant) is confidential and may be legally privileged. Access to this email by anyone other than the intended recipient is unauthorised. If you are not the intended recipient any disclosure, copying, distribution or any action taken or omitted to be taken in reliance on it, is prohibited and may be unlawful.</small>
-  </div>
-  {% include nav-footer.html %}
-</footer>
+{% include footer.html %}
 
 {% include site-email.html %}
 
 
 <script type="text/javascript">
   const aside = document.querySelector('.main__aside');
-  const speed = 0.2;
+  const speed = 0.1;
 
   function setScrollParallax() {
       aside.style.setProperty("--scrollparallax", (document.body.scrollTop || document.documentElement.scrollTop) * speed);

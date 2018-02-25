@@ -5,13 +5,23 @@ title: false
 @import "normalize",
         "settings",
         "sassline-base",
+        "grid",
+        "list",
+        "button",
+        "header",
+        "nav",
+        "feature",
+        "main",
+        "section-approach",
+        "section-services",
+        "section-vision",
+        "section-partners",
+        "section-contact",
+        "footer",
         "vcard";
 
-html {
-  height: auto;
-}
-
 :root {
+  height: auto;
   font-size: 11px;
   line-height: 1.2em;
   font-size: calc(11px + .2vw);
@@ -24,6 +34,7 @@ img {
   height: auto;
 }
 
+// Email links
 a[href^="mailto"] {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -32,278 +43,31 @@ a[href^="mailto"] {
   overflow: hidden;
 }
 
-.button {
-  display: inline-block;
-  padding: 1.2rem 2rem 1.3rem;
-  margin-bottom: 2rem;
-  background: white;
-  font-weight: 500;
-  .icon {
-    margin-bottom: -.1rem;
-  }
-  &--nav {
-    padding: .4rem 1rem;
-    border: none;
-    margin: 0;
-  }
-}
-
+// Nav anchor points, adjusted for the header
 .anchor-point {
   position: absolute;
   top: -9.7rem;
 }
 
-@supports (display: grid) {
-  .grid {
-    position: relative;
-    max-width: 100%;
-    display: -ms-grid;
-    display: grid;
-    grid-column-gap: .75rem;
-    -ms-grid-columns:
-      [full-start]
-        minmax(calc(calc(100% - 1200px) / 2), .5fr)
-          [main-start]
-            ([col-start] 1fr)[12]
-          [main-end]
-        minmax(calc(calc(100% - 1200px) / 2), .5fr)
-      [full-end];
-    grid-template-columns:
-      [full-start]
-        minmax(calc(calc(100% - 1200px) / 2), .5fr)
-          [main-start]
-            repeat(12, [col-start] 1fr)
-          [main-end]
-        minmax(calc(calc(100% - 1200px) / 2), .5fr)
-      [full-end];
-    > * {
-      grid-column: main-start / main-end;
-    }
-  }
+// Default padding for sections
+.main,
+.section {
+  padding: 3rem 0 5.4rem;
 }
 
-// Header component
-.header {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 2;
-  align-items: center;
-  box-shadow: 0 2px 2px fade-out($headingColour, 0.85);
-  background: $backgroundColour;
-  border-top: 5px solid $accentColour;
-  .logo {
-    min-width: 10rem;
-    grid-column: 2 / span 4;
-    @include breakpoint(break-1) {
-      grid-column: 2 / span 2;
-    }
-    line-height: 0;
-  }
-  .nav {
-    grid-column: span 8;
-    @include breakpoint(break-1) {
-      grid-column: span 10;
-    }
-  }
-}
-
-// Feature
-.feature {
-  background: $headingColour url('/assets/feature.jpg') no-repeat center;
-  background-size: cover;
-  min-height: 60vh;
-  place-items: center;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  &:after {
-    z-index: 0;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: fade-out($backgroundColour, 0.3);
-  }
-  &__content {
-    z-index: 1;
-    text-shadow: 0 0 20px $backgroundColour;
-    grid-column: 3 / span 10;
-    @include breakpoint(break-1) {
-      grid-column: 3 / span 6;
-    }
-  }
-}
-
-// Main component
-.main {
-  @include breakpoint(break-1) {
-    &__content {
-      grid-column: 2 / 9;
-    }
-    &__aside {
-      transform: translateY( calc( var(--scrollparallax) * 1px ));
-      grid-column: 10 / 14;
-      margin-top: -4rem;
-    }
-  }
-  .figure {
-    max-width: 50%;
-    float: right;
-    margin-left: 2.2rem;
-  }
-}
-
-// Approach section component
-.approach-section {
-  background: $headingColour url('/assets/approach.jpg') no-repeat center right;
-  background-size: contain;
-  .typeset h3,
-  .typeset p,
-  .typeset li {
-    color: $backgroundColour;
-  }
-  @include breakpoint(break-1) {
-    &__content {
-      grid-column: 2 / 8;
-    }
-  }
-  &__aside {
-    columns: 2;
-    ul {
-      padding-top: 0;
-    }
-    @include breakpoint(break-1) {
-      columns: 1;
-      grid-column: 10 / 13;
-    }
-  }
-}
-
-// Our services section
-.our-services-section,
-.our-vision-section,
-.contact-section,
-.partners-section {
-  &__header {
-    text-align: center;
-  }
-  @include breakpoint(break-1) {
-    &__column {
-      grid-column: 3 / span 4;
-    }
-    &__column + &__column {
-      grid-column: 9 / span 4;
-    }
-  }
-}
-
-.our-services-section {
-  background: $captionColour;
-}
-
-.partners-section {
-  background: $headingColour;
-  .typeset h3,
-  .typeset h4,
-  .typeset p,
-  .typeset li {
-    color: $backgroundColour;
-  }
-}
-
+.header,
 .footer {
-  background: $headingColour;
-  color: $captionColour;
-  &__copyright {
-    grid-column: 2 / span 8;
-  }
-  .nav {
-    grid-column: span 4;
-    font-size: .9rem;
-  }
-  a {
-    color: $backgroundColour;
-  }
+  padding: 1.6rem 0 1.8rem;
 }
 
+
+// Typography overrides
 .typeset h1 strong {
   font-weight: 700;
 }
 
 .typeset h3 {
   font-weight: 300;
-}
-
-.nav {
-  text-transform: uppercase;
-  font-weight: 500;
-  text-align: right;
-  ul {
-    overflow: hidden;
-  }
-  li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    @include breakpoint(break-1) {
-      display: inline-block;
-    }
-  }
-  li + li {
-    margin-left: 1rem;
-  }
-  &--header a {
-    font-size: 1.3rem;
-  }
-}
-
-.list {
-  &--ticked {
-    list-style: none;
-    li {
-      font-size: 1.3rem;
-      line-height: 2.5;
-      font-weight: 300;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    svg {
-      width: 2.2rem;
-      height: 2.2rem;
-    }
-  }
-  &--connected {
-    list-style: none;
-    li {
-      padding-left: 2rem;
-      padding-bottom: .6rem;
-      border-left: 1px solid $accentColour;
-      line-height: 2.2;
-      position: relative;
-    }
-    li:before {
-      content: "";
-      position: absolute;
-      left: -.97rem;
-      top: .25rem;
-      height: 1.7rem;
-      width: 1.7rem;
-      border-radius: 100%;
-      background: $accentColour;
-      border: 1px solid $accentColour;
-      box-shadow: inset 0 0 0 .55rem $captionColour;
-    }
-  }
-}
-
-@include breakpoint(break-1) {
-  .button--nav {
-    display: none;
-  }
 }
 
 .typeset code {
@@ -315,14 +79,4 @@ a[href^="mailto"] {
 .typeset,
 .nav {
   -webkit-font-smoothing: antialiased;
-}
-
-.header,
-.footer {
-  padding: 1.6rem 0 1.8rem;
-}
-
-.main,
-.section {
-  padding: 2rem 0 4.4rem;
 }
