@@ -1,6 +1,6 @@
 .vcard-group {
   box-shadow: 0 2px 8px fade-out($headingColour, 0.85);
-  background: $captionColour;
+  background: lighten($captionColour, 10%);
   padding: 1.4rem 2rem 2rem;
   &__heading {
     text-transform: uppercase;
@@ -25,7 +25,6 @@
     align-items: center;
   }
   &__avatar {
-    border-radius: 100%;
     max-width: 5.6rem;
     box-shadow: 0 1.5px 1px fade-out($bodyColour, 0.75);
   }
