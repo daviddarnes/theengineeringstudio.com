@@ -1,6 +1,9 @@
 .partners-section {
-  background: $headingColour;
+  background: #4f5052;
   &__header {
+    text-align: center;
+  }
+  .typeset h3 {
     text-align: center;
   }
   .typeset h3,
@@ -8,5 +11,8 @@
   .typeset p,
   .typeset li {
     color: $backgroundColour;
+  }
+  &__column {
+    text-align: justify;
   }
 }

@@ -1,12 +1,15 @@
 .main {
-  @include breakpoint(break-1) {
-    &__content {
+  &__content {
+    text-align: justify;
+    @include breakpoint(break-1) {
       grid-column: 2 / 9;
     }
-    &__aside {
-      transform: translateY( calc( var(--scrollparallax) * 1px ));
+  }
+  &__aside {
+    transform: translateY( calc( var(--scrollparallax) * 1px ));
+    margin-top: -6rem;
+    @include breakpoint(break-1) {
       grid-column: 10 / 14;
-      margin-top: -6rem;
     }
   }
   .figure {
@@ -14,9 +17,4 @@
     float: right;
     margin-left: 2.2rem;
   }
-}
-
-.typeset code,
-.typeset pre {
-  font-weight: 600;
 }

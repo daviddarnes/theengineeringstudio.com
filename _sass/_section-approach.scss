@@ -1,6 +1,6 @@
 // Approach section component
 .approach-section {
-  background: $headingColour url('/assets/approach.jpg') no-repeat center right;
+  background: #4f5052 url('/assets/approach.jpg') no-repeat center right;
   background-size: contain;
   &__header {
     text-align: left;
@@ -10,8 +10,9 @@
   .typeset li {
     color: $backgroundColour;
   }
-  @include breakpoint(break-1) {
-    &__content {
+  &__content {
+    text-align: justify;
+    @include breakpoint(break-1) {
       grid-column: 2 / 8;
     }
   }

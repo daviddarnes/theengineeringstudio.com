@@ -15,6 +15,7 @@ title: false
         "section-approach",
         "section-services",
         "section-vision",
+        "section-testimonial",
         "section-partners",
         "section-contact",
         "footer",
@@ -36,11 +37,8 @@ img {
 
 // Email links
 a[href^="mailto"] {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  display: inline-block;
-  max-width: 100%;
-  overflow: hidden;
+  word-wrap: break-word;
+  text-decoration: none;
 }
 
 // Nav anchor points, adjusted for the header
@@ -89,4 +87,24 @@ a[href^="mailto"] {
 .typeset,
 .nav {
   -webkit-font-smoothing: antialiased;
+}
+
+.typeset blockquote p {
+  border: none;
+}
+
+.typeset code,
+.typeset pre {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.typeset h6 {
+  padding-top: 0;
+}
+
+.figure {
+  &--center {
+    text-align: center;
+  }
 }
