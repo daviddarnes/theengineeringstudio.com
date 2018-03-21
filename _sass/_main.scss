@@ -6,9 +6,9 @@
     }
   }
   &__aside {
-    transform: translateY( calc( var(--scrollparallax) * 1px ));
-    margin-top: -6rem;
     @include breakpoint(break-1) {
+      margin-top: -6rem;
+      transform: translateY( calc( var(--scrollparallax) * 1px ));
       grid-column: 10 / 14;
     }
   }

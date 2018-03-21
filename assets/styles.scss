@@ -71,6 +71,11 @@ a[href^="tel"] {
 
 
 // Typography overrides
+.typeset,
+.nav {
+  -webkit-font-smoothing: antialiased;
+}
+
 .typeset h1 strong {
   font-weight: 700;
 }
@@ -79,19 +84,18 @@ a[href^="tel"] {
   font-weight: 300;
 }
 
+.typeset h6 {
+  padding-top: 0;
+}
+
+.typeset ul li {
+  margin-left: 0;
+}
+
 .typeset code {
   font-size: 1.3rem;
   background: none;
   -webkit-font-smoothing: auto;
-}
-
-.typeset,
-.nav {
-  -webkit-font-smoothing: antialiased;
-}
-
-.typeset blockquote p {
-  border: none;
 }
 
 .typeset code,
@@ -100,8 +104,8 @@ a[href^="tel"] {
   font-style: normal;
 }
 
-.typeset h6 {
-  padding-top: 0;
+.typeset blockquote p {
+  border: none;
 }
 
 .figure {

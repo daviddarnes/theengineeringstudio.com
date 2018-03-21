@@ -39,9 +39,6 @@ excerpt: |
 
 {% include footer.html %}
 
-{% include site-email.html %}
-
-
 <script type="text/javascript">
   const aside = document.querySelector('.main__aside');
   const speed = 0.1;
@@ -80,5 +77,11 @@ excerpt: |
   for (let tick of ticks) {
     delayInterval++;
     tick.style.setProperty('--transitiondelay', `${delayInterval}00ms`);
+  }
+
+  const emails = document.querySelectorAll('.email a, #siteEmail')
+  for (let email of emails) {
+    email.setAttribute('href', email.getAttribute('href').split('').reverse().join('') );
+    email.innerHTML = email.innerHTML.split('').reverse().join('');
   }
 </script>

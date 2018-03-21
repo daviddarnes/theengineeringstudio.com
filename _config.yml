@@ -53,6 +53,9 @@ description: "Consistently providing personal response, outstanding service and 
 url: "https://theengineeringstudio.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 email: "admin@theengineeringstudio.com"
+email_mark: "mark@theengineeringstudio.com"
+email_francisco: "francisco@theengineeringstudio.com"
+
 avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 7. Site navigation
