@@ -1,5 +1,5 @@
 # To do
-- Add icons to the sidebar
-- Add animations
-  - Ticking animation to Approach section
-- Add testimonial
+- [x] Add icons to the sidebar
+- [x] Add animations
+  - [x] Ticking animation to Approach section
+- [x] Add testimonial
