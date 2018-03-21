@@ -2,9 +2,9 @@
 .feature {
   background: $headingColour url('/assets/feature.jpg') no-repeat center;
   background-size: cover;
+  height: 500px;
   min-height: 60vh;
-  place-items: center;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   position: relative;
   &:after {
@@ -19,7 +19,9 @@
   }
   &__content {
     z-index: 1;
+    position: relative;
     text-shadow: 0 0 20px $backgroundColour;
+    max-width: 100ch;
     grid-column: 2 / span 10;
     @include breakpoint(break-1) {
       grid-column: 2 / span 6;
