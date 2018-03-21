@@ -36,7 +36,8 @@ img {
 }
 
 // Email links
-a[href^="mailto"] {
+a[href^="mailto"],
+a[href^="tel"] {
   word-wrap: break-word;
   text-decoration: none;
 }
