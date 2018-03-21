@@ -39,4 +39,11 @@
       color: darken(#696969, 10%);
     }
   }
+  svg, a {
+    vertical-align: middle;
+  }
+  .email,
+  .tel {
+    margin-bottom: .7rem;
+  }
 }
