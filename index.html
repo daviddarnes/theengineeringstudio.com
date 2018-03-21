@@ -47,9 +47,38 @@ excerpt: |
   const speed = 0.1;
 
   function setScrollParallax() {
-      aside.style.setProperty("--scrollparallax", (document.body.scrollTop || document.documentElement.scrollTop) * speed);
-      window.requestAnimationFrame( setScrollParallax );
+    aside.style.setProperty('--scrollparallax', `${(document.body.scrollTop || document.documentElement.scrollTop) * speed}`);
+    window.requestAnimationFrame( setScrollParallax );
   }
 
   window.requestAnimationFrame( setScrollParallax );
+
+
+  const listenedToElements = document.querySelectorAll('.approach-section, .our-services-section');
+
+  const listenToElement = (element) => {
+    const applyInViewState = () => {
+      const triggerPoint = (document.body.scrollTop || document.documentElement.scrollTop) + window.innerHeight / 3;
+      if (triggerPoint >= element.offsetTop) {
+        element.classList.add('section--inview');
+      }
+      window.requestAnimationFrame( applyInViewState );
+    };
+    window.requestAnimationFrame( applyInViewState );
+  }
+
+  const attachEventListeners = (elements) => {
+    for (let element of elements) {
+      listenToElement(element);
+    }
+  }
+
+  attachEventListeners(listenedToElements);
+
+  const ticks = document.querySelectorAll('.approach-section .icon');
+  let delayInterval = 0;
+  for (let tick of ticks) {
+    delayInterval++;
+    tick.style.setProperty('--transitiondelay', `${delayInterval}00ms`);
+  }
 </script>

@@ -3,4 +3,12 @@
     text-align: center;
   }
   background: $captionColour;
+  .list--connected:before {
+    bottom: 100%;
+    transition: .9s ease-out;
+    transition-delay: .6s;
+  }
+  &.section--inview .list--connected:before {
+    bottom: 0;
+  }
 }
