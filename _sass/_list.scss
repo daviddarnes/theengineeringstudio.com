@@ -16,10 +16,19 @@
   }
   &--connected {
     list-style: none;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -1px;
+      bottom: 0;
+      width: 1px;
+      background: $accentColour;
+    }
     li {
       padding-left: 2rem;
       padding-bottom: .6rem;
-      border-left: 1px solid $accentColour;
       line-height: 2.2;
       position: relative;
     }
