@@ -47,7 +47,7 @@ defaults:
 # 6. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "The Engineering Studio" # Site name or title, also used in jekyll-seo-tag
+title: "the engineering studio" # Site name or title, also used in jekyll-seo-tag
 logo: "/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Consistently providing personal response, outstanding service and the timely delivery of results" # Site description and default description, also used in jekyll-seo-tag
 url: "https://theengineeringstudio.com" # Site url, also used in jekyll-seo-tag
