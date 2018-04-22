@@ -1,4 +1,4 @@
-# [theengineeringstudio.com](theengineeringstudio.com)
+# [theengineeringstudio.com](http://theengineeringstudio.com)
 Single page site for The Engineering Studio. The design is using [Alembic](https://alembic.darn.es/) by [David Darnes](https://github.com/daviddarnes) theme as a [GitHub Pages remote theme](https://github.com/benbalter/jekyll-remote-theme), but with the following changes:
 
 - Custom configuation in the `_config.yml`
