@@ -41,7 +41,8 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Jekyll collections settings
 defaults:
   -
-    scope: /
+    scope:
+      path: ""
     values:
       image: "/assets/default-social-image.png" # Default image for sharing
 
