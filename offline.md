@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Engineering Studio
-excerpt: "You're offline"
+title: The Engineering Studio - Offline Page
+excerpt: You're offline
 ---
 
 <h1>You appear to be offline</h1>
