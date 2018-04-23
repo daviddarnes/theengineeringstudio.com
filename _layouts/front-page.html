@@ -1,9 +1,5 @@
 ---
 layout: default
-title: the engineering studio
-excerpt: |
-  Consistently providing personal response, outstanding service and the timely
-  delivery of results.
 ---
 
 {% include header.html %}
@@ -13,29 +9,24 @@ excerpt: |
 <main class="main grid">
   <span class="anchor-point" id="overview"></span>
   <div class="main__content typeset">
-    <h3>Overview</h3>
-    <p><code>the engineering studio</code> is a Civil and Structural Engineering practice. Our aim is to consistently provide personal response, outstanding service and the timely delivery of results.</p>
-    <p>The practice benefits from an ability to have a constructive dialogue with clients as well as collaborating closely with all disciplines involved in the project team from inception through project delivery.</p>
-    {% include figure.html image="/assets/building-main.jpg" width="250" %}
-    <p>A key aspect of the successful delivery of a project is the effective communication between all members of the project to fully understand the client’s aspirations and requirements for the project.</p>
-    <p>At <code>the engineering studio</code> all projects are led by a Director, who will always be the point of contact from inception to completion of the project. We consider this approach to be key particularly in the early stages of the process where critical decisions are required thus reducing future issues along the design process.</p>
+    {{ content }}
   </div>
   <aside class="main__aside">
     {% include vcard.html %}
   </aside>
 </main>
 
-{% include section-approach.html %}
+{% include section-approach.html title=page.approach.title body=page.approach.body %}
 
-{% include section-vision.html %}
+{% include section-vision.html title=page.vision.title body=page.vision.body %}
 
-{% include section-services.html %}
+{% include section-services.html title=page.services.title body=page.services.body %}
 
-{% include section-testimonial.html %}
+{% include section-testimonial.html title=page.testimonial.title body=page.testimonial.body %}
 
-{% include section-partners.html %}
+{% include section-partners.html title=page.partners.title body=page.partners.body items=page.partners.items %}
 
-{% include section-contact.html %}
+{% include section-contact.html title=page.contact.title body=page.contact.body %}
 
 {% include footer.html %}
 
