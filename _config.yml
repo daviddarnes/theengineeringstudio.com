@@ -50,7 +50,7 @@ lang: en-GB # Set the site language
 title: "the engineering studio" # Site name or title, also used in jekyll-seo-tag
 logo: "/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Consistently providing personal response, outstanding service and the timely delivery of results" # Site description and default description, also used in jekyll-seo-tag
-url: "https://theengineeringstudio.com" # Site url, also used in jekyll-seo-tag
+url: "https://daviddarnes.github.io/theengineeringstudio.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 email: "admin@theengineeringstudio.com"
 email_mark: "mark@theengineeringstudio.com"
