@@ -1,9 +1,83 @@
 ---
+pages:
+- index.md
 hide_body: false
 is_partial: false
 fields:
-- name: image
+- type: file
+  name: image
   label: Image
-  type: text
-  hidden: false
-  default: "/assets/default-social-image.png"
+  default: "/uploads/2018/04/24/feature.jpg"
+- type: text
+  label: Page title
+  name: title
+- type: text
+  name: excerpt
+  label: Page description
+- type: field_group
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    name: body
+    label: Body
+  label: Approach section
+  name: approach
+- type: field_group
+  name: vision
+  label: Vision section
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    name: body
+    label: Body
+- type: field_group
+  name: services
+  label: Services section
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    name: body
+    label: Body
+- type: field_group
+  name: testimonial
+  label: Testimonial section
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    name: body
+    label: Body
+- type: field_group
+  name: partners
+  label: Partners section
+  fields:
+  - type: text
+    name: title
+    label: Title
+  - type: field_group_list
+    name: items
+    label: Partners
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: textarea
+      name: content
+      label: Content
+    - type: text
+      name: linkedin_link
+      label: LinkedIn link
+- type: field_group
+  name: contact
+  label: Contact
+  fields:
+  - type: text
+    name: title
+    label: Title
