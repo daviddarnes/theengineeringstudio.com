@@ -99,3 +99,7 @@ fields:
   - type: text
     name: title
     label: Title
+- type: textarea
+  name: layout
+  label: Layout
+  hidden: true
