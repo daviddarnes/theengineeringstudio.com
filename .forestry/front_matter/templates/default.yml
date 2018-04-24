@@ -22,6 +22,10 @@ fields:
   - type: textarea
     name: body
     label: Body
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   label: Approach section
   name: approach
 - type: field_group
@@ -34,6 +38,10 @@ fields:
   - type: textarea
     name: body
     label: Body
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: services
   label: Services section
@@ -44,6 +52,10 @@ fields:
   - type: textarea
     name: body
     label: Body
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: testimonial
   label: Testimonial section
@@ -54,6 +66,10 @@ fields:
   - type: textarea
     name: body
     label: Body
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: partners
   label: Partners section
@@ -71,6 +87,10 @@ fields:
     - type: textarea
       name: content
       label: Content
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
     - type: text
       name: linkedin_link
       label: LinkedIn link
