@@ -65,7 +65,7 @@ fields:
     name: body
     label: Body
     config:
-      wysiwyg: true
+      wysiwyg: false
       schema:
         format: markdown
 - type: field_group
