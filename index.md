@@ -27,10 +27,10 @@ services:
     Pre-Planning, Pre-Construction and Construction.
 testimonial:
   title: Testimonial
-  body: "### Testimonial\n\n> `the engineering studio` provide a high standard of
-    service and delivery. They have been proactive,  \n> responsive and professional
-    when developing engineering solutions and have a flexible approach to suit our
-    requirements.\n\nJeremy Johnson, **Technical Manager – David Wilson Homes**\n"
+  body: "> `the engineering studio` provide a high standard of service and delivery.
+    They have been proactive,  \n> responsive and professional when developing engineering
+    solutions and have a flexible approach to suit our requirements.\n\nJeremy Johnson,
+    **Technical Manager – David Wilson Homes**\n"
 partners:
   title: Partners
   items:
