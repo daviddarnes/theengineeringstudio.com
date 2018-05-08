@@ -66,4 +66,4 @@ The practice benefits from an ability to have a constructive dialogue with clien
 
 A key aspect of the successful delivery of a project is the effective communication between all members of the project to fully understand the client’s aspirations and requirements for the project.
 
-At `the engineering studio` all projects are led by a Director, who will always be the point of contact from inception to completion of the project. We consider this approach to be key particularly in the early stages of the process where critical decisions are required thus reducing future issues along the design process.
+At `the engineering studio` all projects are led by a Director, who will always be the point of contact from inception to completion of the project. We consider this approach to be key particularly in the early stages of the process where critical decisions are required thus reducing future issues along the design process
