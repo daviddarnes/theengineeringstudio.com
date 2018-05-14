@@ -11,4 +11,7 @@
   &.section--inview .list--connected:before {
     bottom: 0;
   }
+  ul {
+    @extend .list--connected;
+  }
 }

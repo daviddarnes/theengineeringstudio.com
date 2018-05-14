@@ -5,13 +5,6 @@
   </div>
   <div class="contact-section__column grid__column typeset">
     <h3>{{ include.title }}</h3>
-    <div class="email">
-      <a href="{{ site.email | prepend: "mailto:" | split: "" | reverse | join: "" }}">{{ site.email | split: "" | reverse | join: "" }}</a><br>
-    </div>
-    <a href="tel:{{ site.phone | replace: " ", "" }}">{{ site.phone }}</a>
-    <br>
-    <address>
-      {{ site.address | newline_to_br }}
-    </address>
+    {{ include.body | markdownify }}
   </div>
 </section>

@@ -7,6 +7,7 @@
   {% for item in include.items %}
     <div class="partners-section__column grid__column typeset">
       {% include figure.html image=item.image width="200" height="200" %}
+      <h3>{{ item.title }}</h3>
       {{ item.content | markdownify }}
       {% include button.html text="Find me on LinkedIn" link=item.linkedin_link icon="linkedin" %}
     </div>

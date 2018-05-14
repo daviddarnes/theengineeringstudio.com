@@ -8,16 +8,9 @@
   </div>
   <aside class="approach-section__aside typeset">
     <ul class="list  list--ticked">
-      <li><span>Proactive</span> {% include icon.html id="tick" %}</li>
-      <li><span>Responsible design</span> {% include icon.html id="tick" %}</li>
-      <li><span>Integrated</span> {% include icon.html id="tick" %}</li>
-      <li><span>Innovation</span> {% include icon.html id="tick" %}</li>
-      <li><span>Sustainability</span> {% include icon.html id="tick" %}</li>
-      <li><span>Value/Cost</span> {% include icon.html id="tick" %}</li>
-      <li><span>Creative solutions</span> {% include icon.html id="tick" %}</li>
-      <li><span>Informed</span> {% include icon.html id="tick" %}</li>
-      <li><span>Problem solving</span> {% include icon.html id="tick" %}</li>
-      <li><span>Inclusive</span> {% include icon.html id="tick" %}</li>
+      {% for item in include.items %}
+        <li><span>{{ item.name }}</span> {% include icon.html id="tick" %}</li>
+      {% endfor %}
     </ul>
   </aside>
 </section>

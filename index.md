@@ -11,6 +11,17 @@ approach:
     Our Directors' experience will assist the client through the decision making process in regards to the design and planning stages, budget, programme, site, environment, project risk profile and deliverability at the early stages of the process.
 
     We are committed to finding the appropriate solution for each project, considering all factors and responding to our client’s and the project’s requirements and aspirations. At `the engineering studio` we find creative solutions to complex challenges.
+  items:
+  - name: Proactive
+  - name: Responsible design
+  - name: Integrated
+  - name: Innovation
+  - name: Sustainability
+  - name: Value/Cost
+  - name: Creative solutions
+  - name: Informed
+  - name: Problem solving
+  - name: Inclusive
 vision:
   title: Our Vision
   body: "`the engineering studio` was born from a genuine passion for engineering
@@ -22,9 +33,41 @@ vision:
 services:
   title: Our Services
   body: |
-    `the engineering studio` the engineering studio can assist with your project during any of the different stages:
-
+    `the engineering studio` the engineering studio can assist with your project during any of the different stages:  
     Pre-Planning, Pre-Construction and Construction.
+  items:
+  - title: "Civil Engineering"
+    content: |
+      Delivering a coordinated and cost-effective solution that responds to the requirements of each development site.
+      - Planning support
+      - Flood Risk Assessments
+      - Drainage Strategies
+      - Drainage Design
+      - Drainage S104 agreements
+      - Drainage S102 agreements
+      - Sewer connection S106 agreements
+      - Sewer diversion S185 agreements
+      - Ordinary Watercourse Consents
+      - Drainage 3D modelling
+      - S38 new highways agreements
+      - S278 highways alterations agreements
+      - Highways 3D modelling
+  - title: "Structural Engineering"
+    content: |
+      Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.
+      - Concrete
+      - Steel
+      - Masonry
+      - Timber
+      - Foundation design
+      - Reinforcement detailing
+      - Temporary works design
+      - Domestic and residential
+      - Conceptual design
+      - Feasibility studies
+      - Condition surveys
+      - BIM
+      - Pre-planning, pre-construction and construction
 testimonial:
   title: Testimonial
   body: "> `the engineering studio` provide a high standard of service and delivery.
@@ -35,9 +78,8 @@ partners:
   title: Partners
   items:
   - image: "/assets/mark.jpg"
+    title: "Mark Gould"
     content: |
-      ### Mark Gould
-
       Mark's passion and flair for engineering led him to set up the engineering studio in 2018 with the aim to provide clients with the best support, service and technical solutions for their projects. His 18 years’ practical experience working for some of the world’s leading multidisciplinary engineering companies has provided him with the knowledge and skills to be able to successfully design and manage a variety of construction projects in the education, health, commercial, residential and refurbishment sectors incorporating all of the major building materials.
 
       His proactiveness and hands on approach allows him to assess and establish the key risks of each project in order to successfully manage the design process from the outset through to completion.
@@ -45,15 +87,22 @@ partners:
       He is a forward thinking individual who is able to provide innovative design solutions on challenging sites. Mark's experience of building strong and trusting relationships with all team members maximises performance, while his high technical knowledge of civil & structural engineering ensures quality and excellence are constantly delivered for the duration of each project.
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
   - image: "/assets/francisco.jpg"
+    title: "Francisco Alguacil"
     content: |
-      ### Francisco Alguacil
-
       Francisco is a Civil Engineer with many years’ experience in the construction industry. He has practical experience of a wide variety of projects in all of the major sectors. Francisco is experienced in the design of surface water drainage systems in accordance with the SUDS hierarchy including soakaways, swales, attenuation ponds and underground attenuation tanks to meet the requirements of clients and LPAs. He has also secured the required Approvals from the Environment Agency, Local Drainage Boards and Water Authorities. He also designs foul drainage systems to discharge either into the nearby adopted sewer or to foul treatment plants and has applied and obtained the requisite S104, S185, S106 legal agreements for the proposed drainage works.
 
       He is proficient at designing roads and highways, securing the requisition for S38 & S278 agreements and is also very experienced in undertaking the 3D modelling of development sites to arrive at a balanced cut and fill solution, avoiding the need for the costly net import or export of bulk material across the entire site and under discreet phases.
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
+  body: |
+    [admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  
+    [01454560060](tel:01454560060)  
+    Fromeforde House  
+    Church Road  
+    Yate  
+    Bristol  
+    BS37 5JB
 image: "/uploads/2018/04/24/feature.jpg"
 ---
 ### Overview

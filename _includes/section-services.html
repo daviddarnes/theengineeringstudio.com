@@ -2,43 +2,12 @@
   <span class="anchor-point" id="our-services"></span>
   <header class="our-services-section__header typeset">
     <h3>Our Services</h3>
-    <p><code>the engineering studio</code> can assist with your project during any of the different stages:<br>Pre-Planning, Pre-Construction and Construction.</p>
+    {{ include.body | markdownify }}
   </header>
-  <div class="our-services-section__column grid__column typeset">
-    <h4>Civil Engineering</h4>
-    <p>Delivering a coordinated and cost-effective solution that responds to the requirements of each development site.</p>
-    <ul class="list list--connected">
-      <li>Planning support</li>
-      <li>Flood Risk Assessments</li>
-      <li>Drainage Strategies</li>
-      <li>Drainage Design</li>
-      <li>Drainage S104 agreements</li>
-      <li>Drainage S102 agreements</li>
-      <li>Sewer connection S106 agreements</li>
-      <li>Sewer diversion S185 agreements</li>
-      <li>Ordinary Watercourse Consents</li>
-      <li>Drainage 3D modelling</li>
-      <li>S38 new highways agreements</li>
-      <li>S278 highways alterations agreements</li>
-      <li>Highways 3D modelling</li></ul>
-  </div>
-  <div class="our-services-section__column grid__column typeset">
-    <h4>Structural Engineering</h4>
-    <p>Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.</p>
-    <ul class="list list--connected">
-      <li>Concrete</li>
-      <li>Steel</li>
-      <li>Masonry</li>
-      <li>Timber</li>
-      <li>Foundation design</li>
-      <li>Reinforcement detailing</li>
-      <li>Temporary works design</li>
-      <li>Domestic and residential</li>
-      <li>Conceptual design</li>
-      <li>Feasibility studies</li>
-      <li>Condition surveys</li>
-      <li>BIM</li>
-      <li>Pre-planning, pre-construction and construction</li>
-    </ul>
-  </div>
+  {% for item in include.items %}
+    <div class="our-services-section__column grid__column typeset">
+      <h4>{{ item.title }}</h4>
+      {{ item.content | markdownify }}
+    </div>
+  {% endfor %}
 </section>
