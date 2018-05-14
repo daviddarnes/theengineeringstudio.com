@@ -32,11 +32,10 @@ vision:
     proactive part of the solution process.\n"
 services:
   title: Our Services
-  body: |
-    `the engineering studio` the engineering studio can assist with your project during any of the different stages:  
-    Pre-Planning, Pre-Construction and Construction.
+  body: "`the engineering studio` the engineering studio can assist with your project
+    during any of the different stages:  \nPre-Planning, Pre-Construction and Construction.\n"
   items:
-  - title: "Civil Engineering"
+  - title: Civil Engineering
     content: |
       Delivering a coordinated and cost-effective solution that responds to the requirements of each development site.
       - Planning support
@@ -52,7 +51,7 @@ services:
       - S38 new highways agreements
       - S278 highways alterations agreements
       - Highways 3D modelling
-  - title: "Structural Engineering"
+  - title: Structural Engineering
     content: |
       Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.
       - Concrete
@@ -78,7 +77,7 @@ partners:
   title: Partners
   items:
   - image: "/assets/mark.jpg"
-    title: "Mark Gould"
+    title: Mark Gould
     content: |
       Mark's passion and flair for engineering led him to set up the engineering studio in 2018 with the aim to provide clients with the best support, service and technical solutions for their projects. His 18 years’ practical experience working for some of the world’s leading multidisciplinary engineering companies has provided him with the knowledge and skills to be able to successfully design and manage a variety of construction projects in the education, health, commercial, residential and refurbishment sectors incorporating all of the major building materials.
 
@@ -87,7 +86,7 @@ partners:
       He is a forward thinking individual who is able to provide innovative design solutions on challenging sites. Mark's experience of building strong and trusting relationships with all team members maximises performance, while his high technical knowledge of civil & structural engineering ensures quality and excellence are constantly delivered for the duration of each project.
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
   - image: "/assets/francisco.jpg"
-    title: "Francisco Alguacil"
+    title: Francisco Alguacil
     content: |
       Francisco is a Civil Engineer with many years’ experience in the construction industry. He has practical experience of a wide variety of projects in all of the major sectors. Francisco is experienced in the design of surface water drainage systems in accordance with the SUDS hierarchy including soakaways, swales, attenuation ponds and underground attenuation tanks to meet the requirements of clients and LPAs. He has also secured the required Approvals from the Environment Agency, Local Drainage Boards and Water Authorities. He also designs foul drainage systems to discharge either into the nearby adopted sewer or to foul treatment plants and has applied and obtained the requisite S104, S185, S106 legal agreements for the proposed drainage works.
 
@@ -95,14 +94,8 @@ partners:
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
-  body: |
-    [admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  
-    [01454560060](tel:01454560060)  
-    Fromeforde House  
-    Church Road  
-    Yate  
-    Bristol  
-    BS37 5JB
+  body: "[admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  \n[01454560060](tel:01454560060)
+    \ \nFromeforde House  \nChurch Road  \nYate  \nBristol  \nBS37 5JB\n"
 image: "/uploads/2018/04/24/feature.jpg"
 ---
 ### Overview
