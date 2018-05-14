@@ -94,6 +94,8 @@ fields:
     - type: text
       name: linkedin_link
       label: LinkedIn link
+    config:
+      labelField: content
 - type: field_group
   name: contact
   label: Contact
