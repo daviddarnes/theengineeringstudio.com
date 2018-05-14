@@ -117,7 +117,7 @@ fields:
       name: linkedin_link
       label: LinkedIn link
     config:
-      labelField: content
+      labelField: title
 - type: field_group
   name: contact
   label: Contact
