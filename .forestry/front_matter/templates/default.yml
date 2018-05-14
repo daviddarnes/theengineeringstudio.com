@@ -26,9 +26,9 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: tag_list
-    name: items
+  - type: list
     label: List items
+    name: items
   label: Approach section
   name: approach
 - type: field_group
