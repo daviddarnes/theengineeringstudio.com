@@ -28,7 +28,7 @@ fields:
         format: markdown
   - type: list
     name: items
-    label: List items
+    label: Attribute items
   label: Approach section
   name: approach
 - type: field_group
