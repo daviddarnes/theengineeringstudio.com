@@ -26,6 +26,10 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: list
+    name: items
+    label: Approach list items
+    default: []
   label: Approach section
   name: approach
 - type: field_group
