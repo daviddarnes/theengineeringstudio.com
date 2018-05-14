@@ -12,16 +12,16 @@ approach:
 
     We are committed to finding the appropriate solution for each project, considering all factors and responding to our client’s and the project’s requirements and aspirations. At `the engineering studio` we find creative solutions to complex challenges.
   items:
-  - name: Proactive
-  - name: Responsible design
-  - name: Integrated
-  - name: Innovation
-  - name: Sustainability
-  - name: Value/Cost
-  - name: Creative solutions
-  - name: Informed
-  - name: Problem solving
-  - name: Inclusive
+  - Proactive
+  - Responsible design
+  - Integrated
+  - Innovation
+  - Sustainability
+  - Value/Cost
+  - Creative solutions
+  - Informed
+  - Problem solving
+  - Inclusive
 vision:
   title: Our Vision
   body: "`the engineering studio` was born from a genuine passion for engineering
