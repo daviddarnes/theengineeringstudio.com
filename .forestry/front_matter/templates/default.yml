@@ -26,15 +26,9 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: field_group_list
+  - type: list
     name: items
-    label: Approach list items
-    fields:
-    - type: text
-      name: name
-      label: Name
-    config:
-      labelField: name
+    label: List items
   label: Approach section
   name: approach
 - type: field_group
