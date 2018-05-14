@@ -59,6 +59,22 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: field_group_list
+    name: items
+    label: Services
+    fields:
+    - type: text
+      name: title
+      label: Title
+    - type: textarea
+      name: content
+      label: Content
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+    config:
+      labelField: title
 - type: field_group
   name: testimonial
   label: Testimonial section
