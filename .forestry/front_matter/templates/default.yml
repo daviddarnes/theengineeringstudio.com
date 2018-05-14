@@ -103,6 +103,9 @@ fields:
     - type: file
       name: image
       label: Image
+    - type: text
+      label: Name
+      name: title
     - type: textarea
       name: content
       label: Content
