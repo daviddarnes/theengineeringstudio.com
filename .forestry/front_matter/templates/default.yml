@@ -122,3 +122,10 @@ fields:
   - type: text
     name: title
     label: Title
+  - type: textarea
+    name: body
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
