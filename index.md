@@ -94,8 +94,8 @@ partners:
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
-  body: "[admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  \n[01454560060](tel:01454560060)
-    \ \nFromeforde House  \nChurch Road  \nYate  \nBristol  \nBS37 5JB\n"
+  body: "[admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  \n[01454540060](tel:01454
+    540 060)  \nFromeforde House  \nChurch Road  \nYate  \nBristol  \nBS37 5JB"
 image: "/uploads/2018/04/24/feature.jpg"
 ---
 ### Overview
