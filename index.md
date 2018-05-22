@@ -36,21 +36,23 @@ services:
     during any of the different stages:  \nPre-Planning, Pre-Construction and Construction.\n"
   items:
   - title: Civil Engineering
-    content: |
+    content: |-
       Delivering a coordinated and cost-effective solution that responds to the requirements of each development site.
-      - Planning support
-      - Flood Risk Assessments
-      - Drainage Strategies
-      - Drainage Design
-      - Drainage S104 agreements
-      - Drainage S102 agreements
-      - Sewer connection S106 agreements
-      - Sewer diversion S185 agreements
-      - Ordinary Watercourse Consents
-      - Drainage 3D modelling
-      - S38 new highways agreements
-      - S278 highways alterations agreements
-      - Highways 3D modelling
+
+      * Planning support
+      * Flood Risk Assessments
+      * Drainage Strategies
+      * Drainage Design
+      * Drainage S104 agreements
+      * Drainage S102 agreements
+      * Sewer connection S106 agreements
+      * Sewer diversion S185 agreements
+      * Ordinary Watercourse Consents
+      * Drainage 3D modelling
+      * S38 new highways agreements
+      * S278 highways alterations agreements
+      * Highways 3D modelling
+      * Transport planning
   - title: Structural Engineering
     content: |
       Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.
