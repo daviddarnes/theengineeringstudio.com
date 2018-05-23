@@ -52,7 +52,6 @@ services:
       * S38 new highways agreements
       * S278 highways alterations agreements
       * Highways 3D modelling
-      * Transport planning
   - title: Structural Engineering
     content: |
       Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.
