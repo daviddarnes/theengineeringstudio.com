@@ -69,6 +69,15 @@ services:
       - Condition surveys
       - BIM
       - Pre-planning, pre-construction and construction
+  - title: 'Transport Planning '
+    content: |-
+      Preparing, assessing and implementing policies, plans and projects to improve and manage transport systems.
+
+      * Transport statements
+      * Transport assessments
+      * Travel plans
+      * Traffic modelling
+      * Attending public planning enquiries
 testimonial:
   title: Testimonial
   body: "> `the engineering studio` provide a high standard of service and delivery.
