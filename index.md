@@ -54,21 +54,23 @@ services:
       * Highways 3D modelling
       * Transport planning services
   - title: Structural Engineering
-    content: |
+    content: |-
       Analysis, forward thinking and technical skill combined to deliver efficient & exciting structural solutions for your building.
-      - Concrete
-      - Steel
-      - Masonry
-      - Timber
-      - Foundation design
-      - Reinforcement detailing
-      - Temporary works design
-      - Domestic and residential
-      - Conceptual design
-      - Feasibility studies
-      - Condition surveys
-      - BIM
-      - Pre-planning, pre-construction and construction
+
+      * Concrete
+      * Steel
+      * Masonry
+      * Timber
+      * Foundation design
+      * Reinforcement detailing
+      * Temporary works design
+      * Domestic and residential
+      * Conceptual design
+      * Feasibility studies
+      * Condition surveys
+      * BIM
+      * Pre-planning, pre-construction and construction
+      * Drone Surveys
 testimonial:
   title: Testimonial
   body: "> `the engineering studio` provide a high standard of service and delivery.
