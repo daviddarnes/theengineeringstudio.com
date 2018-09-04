@@ -52,7 +52,7 @@ lang: en-GB # Set the site language
 title: "the engineering studio" # Site name or title, also used in jekyll-seo-tag
 logo: "/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "the engineering studio" # Site description and default description, also used in jekyll-seo-tag
-url: "theengineeringstudio.com" # Site url, also used in jekyll-seo-tag
+url: "https://theengineeringstudio.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 email: "admin@theengineeringstudio.com"
 email_mark: "mark@theengineeringstudio.com"
@@ -64,9 +64,6 @@ address: |
   Chipping Sodbury
   Bristol
   BS37 6AD
-
-# _data/places.yaml
-
 
 avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
