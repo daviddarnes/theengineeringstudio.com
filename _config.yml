@@ -65,6 +65,9 @@ address: |
   Bristol
   BS37 6AD
 
+# _data/places.yaml
+
+
 avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 7. Site navigation
