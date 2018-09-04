@@ -97,8 +97,10 @@ partners:
 contact:
   title: Contact
   body: "[admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  \n[01454540060](tel:01454
-    540 060)  \nFromeforde House  \nChurch Road  \nYate  \nBristol  \nBS37 5JB"
+    540 060)  \n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
+    6AD"
 image: "/uploads/2018/04/24/feature.jpg"
+
 ---
 ### Overview
 
