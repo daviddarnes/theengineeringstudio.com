@@ -96,8 +96,8 @@ partners:
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
-  body: "[admin@theengineeringstudio.com](mailto:admin@theengineeringstudio.com)  \n[01454540060](tel:01454
-    540 060)  \n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
+  body: "[mark@theengineeringstudio.com](mark@theengineeirngstudio.com)   \n[01454
+    883 711]()  \n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
     6AD"
 image: "/uploads/2018/04/24/feature.jpg"
 
