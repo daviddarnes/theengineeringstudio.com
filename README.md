@@ -1,5 +1,5 @@
 # [theengineeringstudio.com](http://theengineeringstudio.com)
-Single page site for The Engineering Studio. The design is using [Alembic](https://alembic.darn.es/) by [David Darnes](https://github.com/daviddarnes) theme as a [GitHub Pages remote theme](https://github.com/benbalter/jekyll-remote-theme), but with the following changes:
+Single page site for The Engineering Studio. The design is using [Alembic](https://alembic.darn.es/) by / theme as a [GitHub Pages remote theme](https://github.com/benbalter/jekyll-remote-theme), but with the following changes:
 
 - Custom configuation in the `_config.yml`
 - Replaced `site-aside.html` with custom content
