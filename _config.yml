@@ -58,12 +58,8 @@ email: "admin@theengineeringstudio.com"
 email_mark: "mark@theengineeringstudio.com"
 email_francisco: "francisco@theengineeringstudio.com"
 phone: "01454 883 711"
-address: |
-  51 Broad Street
-  1st Floor
-  Chipping Sodbury
-  Bristol
-  BS37 6AD
+address: "51 Broad Street, Chipping Sodbury, Bristol, BS37 6AD"
+ 
 
 avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
