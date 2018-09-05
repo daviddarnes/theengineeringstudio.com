@@ -95,11 +95,11 @@ partners:
       Francisco is a Civil Engineer with many years’ experience in the construction industry. He has practical experience of a wide variety of projects in all of the major sectors. Francisco is experienced in the design of surface water drainage systems in accordance with the SUDS hierarchy including soakaways, swales, attenuation ponds and underground attenuation tanks to meet the requirements of clients and LPAs. He has also secured the required Approvals from the Environment Agency, Local Drainage Boards and Water Authorities. He also designs foul drainage systems to discharge either into the nearby adopted sewer or to foul treatment plants and has applied and obtained the requisite S104, S185, S106 legal agreements for the proposed drainage works.
 
       He is proficient at designing roads and highways, securing the requisition for S38 & S278 agreements and is also very experienced in undertaking the 3D modelling of development sites to arrive at a balanced cut and fill solution, avoiding the need for the costly net import or export of bulk material across the entire site and under discreet phases.
-    linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
+    linkedin_link: https://www.linkedin.com/in/francisco-alguacil-00b82353/
 contact:
   title: Contact
   body: "51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37 6AD\n\n{%
-    include button.html text=\"Google Maps\" link=[https://goo.gl/maps/79RsU8FrShA2](https://goo.gl/maps/79RsU8FrShA2
+    Google Maps_link=[https://goo.gl/maps/79RsU8FrShA2](https://goo.gl/maps/79RsU8FrShA2
     \"https://goo.gl/maps/79RsU8FrShA2\") %}"
 image: "/uploads/2018/04/24/feature.jpg"
 
