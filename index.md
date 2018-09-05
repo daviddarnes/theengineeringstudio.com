@@ -103,7 +103,6 @@ contact:
     6AD\n\n{% include button.html text=\"Google Maps\" link=[https://goo.gl/maps/79RsU8FrShA2](https://goo.gl/maps/79RsU8FrShA2
     \"https://goo.gl/maps/79RsU8FrShA2\") %}"
 image: "/uploads/2018/04/24/feature.jpg"
-published: false
 
 ---
 ### Overview
