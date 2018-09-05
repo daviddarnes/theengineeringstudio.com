@@ -57,11 +57,7 @@ baseurl: ""
 email: "admin@theengineeringstudio.com"
 email_mark: "mark@theengineeringstudio.com"
 email_francisco: "francisco@theengineeringstudio.com"
-phone: <div class="tel">
-{% include icon.html id="phone" width=30 height=30 %}
-<a href="tel:01454 883 711">01454 883 711</a>
-</div>
-
+phone: "01454 883 711"
 address: |
   51 Broad Street
   1st Floor
