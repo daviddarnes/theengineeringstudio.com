@@ -59,7 +59,8 @@ email_mark: "mark@theengineeringstudio.com"
 email_francisco: "francisco@theengineeringstudio.com"
 phone: 01454 883 711
 address: 51 Broad Street, Chipping Sodbury, Bristol, BS37 6AD
- 
+links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https:https://goo.gl/maps/79RsU8FrShA2 
 
 avatarurl: "https://www.gravatar.com/avatar/XXXX" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
