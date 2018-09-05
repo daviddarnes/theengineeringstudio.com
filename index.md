@@ -1,7 +1,7 @@
 ---
 layout: front-page
 title: the engineering studio
-excerpt: the engineering studio consistently providing a personal response, outstanding
+excerpt: the engineering studio consistently provides a personal response, outstanding
   service and the timely delivery of results
 approach:
   title: Approach
