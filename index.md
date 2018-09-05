@@ -98,9 +98,10 @@ partners:
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
-  body: "\n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
-    6AD"
-    
+  body: "[mark@theengineeringstudio.com]( \"mark@theengineeringstudio.com\")  \n01454
+    883 711  \n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
+    6AD\n\n{% include button.html text=\"Google Maps\" link=[https://goo.gl/maps/79RsU8FrShA2](https://goo.gl/maps/79RsU8FrShA2
+    \"https://goo.gl/maps/79RsU8FrShA2\") %}"
 image: "/uploads/2018/04/24/feature.jpg"
 
 ---
