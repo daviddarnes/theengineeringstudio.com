@@ -100,7 +100,8 @@ contact:
   title: Contact
   body: "\n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
     6AD"
-   image: "/uploads/2018/04/24/feature.jpg"
+    
+image: "/uploads/2018/04/24/feature.jpg"
 
 ---
 ### Overview
