@@ -98,7 +98,7 @@ partners:
     linkedin_link: https://www.linkedin.com/in/mark-gould-52107836/
 contact:
   title: Contact
-  body: \n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
+  body: "\n51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \nBS37
     6AD"
 image: "/uploads/2018/04/24/feature.jpg"
 
