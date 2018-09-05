@@ -4,6 +4,8 @@
    <div class="contact-section__column grid__column typeset">
     <h3>{{ include.title }}</h3>
     {{ include.body | markdownify }}
+   <div class="Google Maps">
+{% include button.html text="Google Maps" link=https://goo.gl/maps/79RsU8FrShA2 %}  
    <div class="email">
 {% include icon.html id="email" width=30 height=30 %}
 <a href="{{ site.email_mark | prepend: "mailto:" | split: "" | reverse | join: "" }}">{{ site.email_mark | split: "" | reverse | join: "" }}</a>
