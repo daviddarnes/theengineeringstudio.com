@@ -98,7 +98,9 @@ partners:
     linkedin_link: https://www.linkedin.com/in/francisco-alguacil-00b82353/
 contact:
   title: Contact
-  body: "51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \n[BS37 6AD](https://goo.gl/maps/sxaTmkKdHpT2
+  body: "51 Broad Street  \n1st Floor  \nChipping Sodbury  \nBristol  \n[BS37 6AD](<iframe
+    src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2865.362219080696!2d-2.393576!3d51.538382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719de34a6ea02f%3A0x4fbbcb3a7e1c09dc!2sTHE+ENGINEERING+STUDIO!5e1!3m2!1sen!2suk!4v1536313925384\"
+    width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>
     \"Google Maps\")"
 image: "/uploads/2018/04/24/feature.jpg"
 
